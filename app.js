@@ -10,6 +10,8 @@ const osprey       = require('osprey');
 const serverRoutes = require('hospitalrun-server-routes');
 const setupAppDir  = require('hospitalrun');
 const apiConfig    = require('./api/config.js');
+const salary = 400$;
+const queer;
 
 dbListeners(config);
 const app = express();
